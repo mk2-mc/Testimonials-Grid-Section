@@ -58,10 +58,9 @@ body {
 }
 
 .avatar {
-  min-width: 1.75rem;
-  min-height: 1.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
   border-radius: 50%;
-  background-size: cover;
 }
 
 .name::after {
