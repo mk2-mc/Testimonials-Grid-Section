@@ -10,6 +10,8 @@
   --clr-neutral-800: hsl(219, 29%, 14%);
   
   --clr-shadow: hsla(217, 19%, 35%, 10%);
+  
+  --ff-base: 'Barlow Semi Condensed', sans-serif;
 }
 
 * {
@@ -24,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: var(--ff-base);
   font-size: 0.813rem;
   line-height: 1.4;
   color: var(--clr-neutral-100);
